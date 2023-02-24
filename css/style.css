@@ -1,0 +1,65 @@
+/**This is a comment**/
+
+body {
+  background: rgb(110, 104, 222);
+  background: linear-gradient(
+    90deg,
+    rgba(110, 104, 222, 1) 0%,
+    rgba(176, 55, 251, 1) 41%,
+    rgba(221, 195, 247, 1) 100%
+  );
+}
+
+p.lorem {
+  color: white;
+  background: red;
+  width: 500px;
+  height: 50px;
+  overflow-y: auto;
+}
+
+div.special li {
+  list-style: lower-latin;
+  padding-left: 50px;
+}
+
+div.special li:last-child {
+  padding-left: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+img.avatar_icon {
+  float: right;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* When not .active, than change to color black when hovering */
+li a:hover:not(.active) {
+  background-color: black;
+}
+
+.active {
+  background-color: red;
+}
