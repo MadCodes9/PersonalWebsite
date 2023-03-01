@@ -1,0 +1,113 @@
+body {
+  /* Requirement-2.A */
+  background: rgb(75, 1, 111); /* Requirement-2.4 */
+  background: linear-gradient(
+    0deg,
+    rgba(75, 1, 111, 1) 45%,
+    rgba(57, 57, 57, 1) 100%
+  );
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; /* Requirement-2.1 */
+  font-size: 13pt;
+  color: aliceblue;
+  margin: 15;
+
+  position: relative; /* Requirement-2.10 */
+  top: 20px;
+
+  float: left; /* Requirement-2.11 */
+}
+
+#welcome {
+  /* Requirement-2.D */
+  display: block;
+  color: gold;
+  float: right;
+  margin: 5px;
+  font-size: 20pt;
+
+  visibility: visible; /* Requirement-2.16 */
+}
+
+a.link {
+  /* Requirement-2.C */
+  text-decoration: none;
+  color: blue;
+  padding: 5;
+}
+
+a.link:visited {
+  /* Requirement-2.F */
+  color: red;
+}
+
+a.link:hover {
+  color: darkblue;
+}
+
+p.title {
+  color: rgb(255, 153, 153);
+}
+p.name {
+  text-align: center; /* Requirement-2.2 */
+  font-size: 30;
+}
+
+p.center {
+  text-align: center;
+}
+
+img.avatar_icon {
+  border-radius: 50%; /* Requirement-2.5 */
+  display: block; /* Requirement-2.12 */
+
+  position: absolute; /* Requirement-2.9 */
+  left: 10%;
+  z-index: -1; /* Requirement-2.17 */
+}
+
+div.regularDiv {
+  background: rgb(60, 9, 84);
+  background: linear-gradient(
+    0deg,
+    rgba(60, 9, 84, 1) 6%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  padding-left: 10px; /* Requirement-2.6 */
+  padding-right: 10px;
+}
+
+div.grow {
+  background: rgb(60, 9, 84);
+  background: linear-gradient(
+    0deg,
+    rgba(60, 9, 84, 1) 6%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  padding-left: 10px;
+  padding-right: 10px;
+
+  position: relative; /* Requirement-2.15 */
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  overflow: hidden; /* Requirement-2.14 */
+
+  clear: left; /* Requirement-2.13 */
+}
+
+div.grow:hover {
+  font-size: 20px;
+  height: 220; /* Requirement-2.7 */
+}
+
+b.name {
+  color: gold; /* Requirement-2.3 */
+}
+
+b.notice {
+  color: red;
+}
+
+ul {
+  /* Requirement-2.B */
+  list-style-type: square; /* Requirement-2.8 */
+}
