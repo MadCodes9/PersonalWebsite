@@ -9,7 +9,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; /* Requirement-2.1 */
   font-size: 13pt;
   color: aliceblue;
-  margin: 15;
+  margin: 15px;
 
   position: relative; /* Requirement-2.10 */
   top: 20px;
@@ -32,7 +32,7 @@ body {
   /* Requirement-2.C */
   text-decoration: none;
   color: blue;
-  padding: 5;
+  padding: 5px;
 }
 
 a.link:visited {
@@ -49,7 +49,7 @@ p.title {
 }
 p.name {
   text-align: center; /* Requirement-2.2 */
-  font-size: 30;
+  font-size: 30pt;
 }
 
 p.center {
@@ -100,7 +100,7 @@ div.grow {
 
 div.grow:hover {
   font-size: 20px;
-  height: 220; /* Requirement-2.7 */
+  height: 220px; /* Requirement-2.7 */
 }
 
 b.name {
